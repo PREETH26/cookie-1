@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // 4. Display the count on the webpage
   let count = getCookie('count');
   if(count!==null){
-     count = parseInt(count) + 1;
+     count++;
   }else{
     count = 1;
   }
